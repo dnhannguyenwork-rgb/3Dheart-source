@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Interactive 3D Reconstruction and Volumetric Visualization of Cardiac MRI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><p>Giving MRI a Heart-to-Heart</p><h1>Interactive 3D Reconstruction and Volumetric Visualization of Cardiac MRI</h1>
+    <label>Select case: <select id="case-select"><option value="cases/pat1/data/">pat1</option></select></label>
+    <span id="case-summary">Loading data…</span></header>
+  <main>
+    <section class="mri-panel">
+      <h2>Source MRI</h2>
+      <div class="planes"><button data-plane="axial" class="active">Axial</button>
+        <button data-plane="coronal">Coronal</button><button data-plane="sagittal">Sagittal</button></div>
+      <div class="scan"><canvas id="scan"></canvas><span id="slice-stamp"></span></div>
+      <input id="slice" type="range" min="0" max="1" value="0">
+      <div class="controls"><button id="play">▶ Play slices</button>
+        <label><input id="overlay" type="checkbox"> Color labels</label></div>
+      <p id="orientation"></p>
+    </section>
+    <section class="model-panel"><h2>3D Heart Model</h2><div id="plot"></div>
+      <button id="reset">Reset view</button></section>
+    <aside><h2>Structures</h2><p>Select a structure to synchronize the MRI, 3D model, and measurements.</p>
+      <button id="show-all">Show all</button><div id="parts"></div></aside>
+  </main>
+  <section class="analysis">
+    <div><h2>Measurements for the Selected Case</h2><div class="table-wrap"><table>
+      <thead><tr><th>Structure</th><th>Voxels</th><th>Volume</th><th>Size R × A × S</th></tr></thead>
+      <tbody id="measurements"></tbody></table></div></div>
+    <div><h2>Volume Comparison Across Cases</h2><p>Select a structure to compare.</p><select id="compare-structure"></select><div id="comparison"></div></div>
+  </section>
+  <script src="plotly.min.js"></script><script src="app.js"></script>
+</body></html>

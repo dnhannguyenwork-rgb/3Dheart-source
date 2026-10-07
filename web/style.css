@@ -1,0 +1,80 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: #f5f4f0; color: #17323c;
+  font: 15px Arial, sans-serif;
+}
+header { padding: 18px 25px; }
+header p {
+  color: #087a7c; font-weight: 700;
+  letter-spacing: 1px; margin: 0;
+}
+h1 { margin: 6px 0; }
+header label { margin-right: 18px; }
+header select, #compare-structure {
+  padding: 8px; border: 1px solid #b7cacc; border-radius: 7px;
+}
+header span { color: #526b73; }
+
+main {
+  display: grid; grid-template-columns: 1fr 1fr 270px;
+  gap: 14px; padding: 0 22px 22px;
+}
+section, aside {
+  background: #fff; border: 1px solid #d6e2e3;
+  border-radius: 16px; padding: 15px; min-width: 0;
+}
+.mri-panel { background: #0b2029; color: #e8f1f3; }
+.planes, .controls {
+  display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
+}
+button {
+  padding: 9px 12px; border: 1px solid #b7cacc;
+  border-radius: 8px; background: #fff; cursor: pointer;
+}
+.mri-panel button { background: #173540; color: #e8f1f3; }
+.planes button.active { background: #b8e4d2; color: #17323c; }
+.scan {
+  height: 500px; background: #020607; display: flex;
+  align-items: center; justify-content: center; position: relative;
+  margin: 12px 0; border-radius: 10px;
+}
+#scan { max-width: 92%; max-height: 92%; }
+#slice-stamp {
+  position: absolute; top: 9px; left: 10px;
+  font: 12px Consolas; color: #d9eeee;
+}
+#slice { width: 100%; accent-color: #77cbb0; }
+.model-panel { display: flex; flex-direction: column; }
+#plot { height: 555px; min-height: 400px; }
+#parts { display: grid; gap: 7px; margin-top: 12px; }
+.part {
+  display: grid; grid-template-columns: 14px 1fr;
+  gap: 8px; text-align: left; align-items: center;
+}
+.dot { height: 11px; width: 11px; border-radius: 50%; }
+.part.selected { outline: 2px solid #087a7c; }
+.model-panel button { align-self: flex-start; }
+
+.analysis {
+  margin: 0 22px 22px; display: grid;
+  grid-template-columns: 1.2fr 1fr; gap: 24px;
+  background: #fff; border: 1px solid #d6e2e3;
+  border-radius: 16px; padding: 20px;
+}
+.analysis h2 { margin-top: 0; }
+.table-wrap { overflow: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td {
+  padding: 10px; border-bottom: 1px solid #d6e2e3;
+  text-align: left; white-space: nowrap;
+}
+th { background: #eaf4f4; color: #0b5960; }
+.measurement-row { cursor: pointer; }
+.measurement-row:hover, .measurement-row.selected { background: #ddf2ec; }
+#comparison { height: 330px; }
+
+@media (max-width: 1000px) {
+  main, .analysis { grid-template-columns: 1fr; }
+  .scan { height: 420px; }
+  #plot { height: 480px; }
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "case_id": "pat0",
+    "base": "cases/pat0/data/"
+  },
+  {
+    "case_id": "pat10",
+    "base": "cases/pat10/data/"
+  },
+  {
+    "case_id": "pat11",
+    "base": "cases/pat11/data/"
+  },
+  {
+    "case_id": "pat12",
+    "base": "cases/pat12/data/"
+  },
+  {
+    "case_id": "pat13",
+    "base": "cases/pat13/data/"
+  },
+  {
+    "case_id": "pat14",
+    "base": "cases/pat14/data/"
+  },
+  {
+    "case_id": "pat15",
+    "base": "cases/pat15/data/"
+  },
+  {
+    "case_id": "pat16",
+    "base": "cases/pat16/data/"
+  },
+  {
+    "case_id": "pat17",
+    "base": "cases/pat17/data/"
+  },
+  {
+    "case_id": "pat18",
+    "base": "cases/pat18/data/"
+  },
+  {
+    "case_id": "pat19",
+    "base": "cases/pat19/data/"
+  },
+  {
+    "case_id": "pat1",
+    "base": "cases/pat1/data/"
+  },
+  {
+    "case_id": "pat20",
+    "base": "cases/pat20/data/"
+  },
+  {
+    "case_id": "pat21",
+    "base": "cases/pat21/data/"
+  },
+  {
+    "case_id": "pat22",
+    "base": "cases/pat22/data/"
+  },
+  {
+    "case_id": "pat23",
+    "base": "cases/pat23/data/"
+  },
+  {
+    "case_id": "pat24",
+    "base": "cases/pat24/data/"
+  },
+  {
+    "case_id": "pat25",
+    "base": "cases/pat25/data/"
+  },
+  {
+    "case_id": "pat26",
+    "base": "cases/pat26/data/"
+  },
+  {
+    "case_id": "pat27",
+    "base": "cases/pat27/data/"
+  },
+  {
+    "case_id": "pat28",
+    "base": "cases/pat28/data/"
+  },
+  {
+    "case_id": "pat29",
+    "base": "cases/pat29/data/"
+  },
+  {
+    "case_id": "pat2",
+    "base": "cases/pat2/data/"
+  },
+  {
+    "case_id": "pat30",
+    "base": "cases/pat30/data/"
+  },
+  {
+    "case_id": "pat31",
+    "base": "cases/pat31/data/"
+  },
+  {
+    "case_id": "pat32",
+    "base": "cases/pat32/data/"
+  },
+  {
+    "case_id": "pat33",
+    "base": "cases/pat33/data/"
+  },
+  {
+    "case_id": "pat34",
+    "base": "cases/pat34/data/"
+  },
+  {
+    "case_id": "pat35",
+    "base": "cases/pat35/data/"
+  },
+  {
+    "case_id": "pat36",
+    "base": "cases/pat36/data/"
+  },
+  {
+    "case_id": "pat37",
+    "base": "cases/pat37/data/"
+  },
+  {
+    "case_id": "pat38",
+    "base": "cases/pat38/data/"
+  },
+  {
+    "case_id": "pat39",
+    "base": "cases/pat39/data/"
+  },
+  {
+    "case_id": "pat3",
+    "base": "cases/pat3/data/"
+  },
+  {
+    "case_id": "pat40",
+    "base": "cases/pat40/data/"
+  },
+  {
+    "case_id": "pat41",
+    "base": "cases/pat41/data/"
+  },
+  {
+    "case_id": "pat42",
+    "base": "cases/pat42/data/"
+  },
+  {
+    "case_id": "pat43",
+    "base": "cases/pat43/data/"
+  },
+  {
+    "case_id": "pat44",
+    "base": "cases/pat44/data/"
+  },
+  {
+    "case_id": "pat45",
+    "base": "cases/pat45/data/"
+  },
+  {
+    "case_id": "pat46",
+    "base": "cases/pat46/data/"
+  },
+  {
+    "case_id": "pat47",
+    "base": "cases/pat47/data/"
+  },
+  {
+    "case_id": "pat48",
+    "base": "cases/pat48/data/"
+  },
+  {
+    "case_id": "pat49",
+    "base": "cases/pat49/data/"
+  },
+  {
+    "case_id": "pat4",
+    "base": "cases/pat4/data/"
+  },
+  {
+    "case_id": "pat50",
+    "base": "cases/pat50/data/"
+  },
+  {
+    "case_id": "pat51",
+    "base": "cases/pat51/data/"
+  },
+  {
+    "case_id": "pat52",
+    "base": "cases/pat52/data/"
+  },
+  {
+    "case_id": "pat53",
+    "base": "cases/pat53/data/"
+  },
+  {
+    "case_id": "pat54",
+    "base": "cases/pat54/data/"
+  },
+  {
+    "case_id": "pat55",
+    "base": "cases/pat55/data/"
+  },
+  {
+    "case_id": "pat56",
+    "base": "cases/pat56/data/"
+  },
+  {
+    "case_id": "pat57",
+    "base": "cases/pat57/data/"
+  },
+  {
+    "case_id": "pat58",
+    "base": "cases/pat58/data/"
+  },
+  {
+    "case_id": "pat59",
+    "base": "cases/pat59/data/"
+  },
+  {
+    "case_id": "pat5",
+    "base": "cases/pat5/data/"
+  },
+  {
+    "case_id": "pat6",
+    "base": "cases/pat6/data/"
+  },
+  {
+    "case_id": "pat7",
+    "base": "cases/pat7/data/"
+  },
+  {
+    "case_id": "pat8",
+    "base": "cases/pat8/data/"
+  },
+  {
+    "case_id": "pat9",
+    "base": "cases/pat9/data/"
+  }
+]
